@@ -1,6 +1,7 @@
 /*
     File: layer2.js
-    Authors: Jesus 
+    Author: Jesus Barrios
+    Editor: Sean Yabut
 
 */
 function generateRandomText() {
