@@ -17,39 +17,28 @@ function generateRandomText() {
     return text.slice(randStart, randStart + randLen);
   };
 
-
-
   // click listener for button
-
-
-
-
     $(document).ready(function() {
-
-                    //code that listens to a click of a button and then sets a timer to generate 4 more buttons 
-                        // Add a click event to your button
-                        $('.spawn').click(function() {
-                            // Set a timeout of 5 seconds (5000 milliseconds)
-                            setTimeout(function() {
-
-                                // Create 4 buttons and append them to the body
-                                for (var i = 0; i < 7; i++) {
-                                    const newText = generateRandomText();
-                                    if (i == 5) {
-                                        let button = $('<button class="buttonClick1">').text("where am i");
-                                        $('body').append(button);
+        //code that listens to a click of a button and then sets a timer to generate 4 more buttons 
+             // Add a click event to your button
+             $('.spawn').click(function() {
+                 // Set a timeout of 5 seconds (5000 milliseconds)
+                setTimeout(function() {
+                     // Create 4 buttons and append them to the body
+                     for (var i = 0; i < 7; i++) {
+                         const newText = generateRandomText();
+                            if (i == 5) {
+                                 let button = $('<button class="buttonClick1">').text("where am i");
+                                     $('body').append(button);
                                     } else{
                                       var button = $('<button>').text(newText);
                                     $('body').append(button);  
-                                    }
-                                    
+                                    }  
                                 }
                             }, 2000);
                         });
     });
-
     
-
         //code that listens to a click of a button and then sets a timer to generate 4 more buttons 
             // Add a click event to your button
             $(document).on('click', '.buttonClick1', function() {
