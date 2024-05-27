@@ -1,10 +1,7 @@
 /*
-   lab.js - This simple JavaScript/jQuery script makes buttons spawn using for and if conditionals
+    File: layer2.js
+    Authors: Jesus 
 
-   Requirements: jQuery must be loaded for this script to work.
-
-   Author: Jesus Barrios
-   Date: 5-15-2024
 */
 function generateRandomText() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
@@ -38,7 +35,7 @@ function generateRandomText() {
                             }, 2000);
                         });
     });
-    
+
         //code that listens to a click of a button and then sets a timer to generate 4 more buttons 
             // Add a click event to your button
             $(document).on('click', '.buttonClick1', function() {
