@@ -2,7 +2,7 @@
 // Author: Emily Belezzuoli
 // editor: Celeste Hernandez
 
-//lab example
+// lab example
 // add button to challenge section
 // $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 // // add a click listener to the challenge button
