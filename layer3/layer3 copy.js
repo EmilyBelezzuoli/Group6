@@ -13,20 +13,20 @@
 
 
 //button for flash
-$("#flashBox").append("<button id='button-flashBox'>Wake Up?</button>");
-//listener
-$("#button-flashBox").click(function(){
-   //make flash? add class to section 
-   $("#flashBox").toggleClass("flashBoxcss")
-   //timeout
-   setTimeout(5000)
-   //new border box
-   $("#flashBoxTransparent").append("<button id='button-flashBoxTransparent'>Wake uppppp?</button>");
-   $("#button-flashBoxTransparent").click(function(){
-    //make flash? add class to section 
-    $("#flashBoxTransparent").toggleClass("flashBoxcssTransparent")
- })
-})
+// $("#flashBox").append("<button id='button-flashBox'>Wake Up?</button>");
+// //listener
+// $("#button-flashBox").click(function(){
+//    //make flash? add class to section 
+//    $("#flashBox").toggleClass("flashBoxcss")
+//    //timeout
+//    setTimeout(5000)
+//    //new border box
+//    $("#flashBoxTransparent").append("<button id='button-flashBoxTransparent'>Wake uppppp?</button>");
+//    $("#button-flashBoxTransparent").click(function(){
+//     //make flash? add class to section 
+//     $("#flashBoxTransparent").toggleClass("flashBoxcssTransparent")
+//  })
+// })
   //timeout
 
   //new function to make box transparent
@@ -39,18 +39,18 @@ $("#button-flashBox").click(function(){
 
 //blinky
   
-    function allDone() {
-    }
-    setTimeout(allDone, 5000);
+    // function allDone() {
+    // }
+    // setTimeout(allDone, 5000);
 
-        document.getElementById("flashBoxccsTransparent")
-        let changeBorder =
-            document.getElementById("flashBoxccs")
-            changeBorder.addEventListener("click", function () { 
-                $("#flashBox").toggleClass("flashBoxcssTransparent")
+    //     document.getElementById("flashBoxccsTransparent")
+    //     let changeBorder =
+    //         document.getElementById("flashBoxccs")
+    //         changeBorder.addEventListener("click", function () { 
+    //             $("#flashBox").toggleClass("flashBoxcssTransparent")
     
 
-            })
+    //         })
 
     
 
