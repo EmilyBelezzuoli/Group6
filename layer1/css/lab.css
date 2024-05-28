@@ -1,0 +1,18 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #2a2a2a;
+  }
+
+  .text p{
+    display: inline-block;
+    max-width: 50%;
+    margin: 4px;
+    padding: 7px 10px;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    }
