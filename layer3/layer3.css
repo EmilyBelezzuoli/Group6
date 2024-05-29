@@ -11,6 +11,9 @@
   } */
 
   .minor-section {
+    padding: 100px;
+    margin-bottom: 100px;
+    background-color:black;
     background-image: url(./img/JudgingEyes.png);
   }
 
