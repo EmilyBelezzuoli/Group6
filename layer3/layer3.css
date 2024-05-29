@@ -10,11 +10,15 @@
     background-color: #DDD8C4;
   } */
 
+  .minor-section {
+    background-image: url(./img/JudgingEyes.png);
+  }
+
   .flashBoxcss {
     padding: 100px;
     margin-bottom: 100px;
     border: solid 1px #888;
-    background-image: url(./JudgingEyes.png);
+    background-image: url();
   }
 
   .flashBoxcssTransparent {
