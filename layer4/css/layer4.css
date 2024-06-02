@@ -4,7 +4,7 @@
     background-color: black;
 }
 
-#the-worldo body {
+body {
     padding: 0;
     margin: 0;
     display: flex;
@@ -26,9 +26,9 @@
     box-shadow: 0 0 10px 2px;
 }
 
-.button-grid {
+.button-rows {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
     gap: 10px;
     margin-top: 20px;
 }
