@@ -36,8 +36,6 @@ $("#button-flashBox").click(function(){
 
 
 
-
-
   //timeout
 
   //new function to make box transparent
