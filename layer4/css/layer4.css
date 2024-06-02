@@ -1,11 +1,41 @@
-#the-worldo {
-    background-color: black;
-    border-color: red;
+*, *::before, *::after {
+    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    background-color: black;
 }
 
-button {
+#the-worldo body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border-color: red;
+    color: red;
+}
+
+.containter {
+    width: 800px;
+    max-width: 80%;
     background-color: black;
     border-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: black;
+    border-color: red;
+    color: red;
     font-family: 'Courier New', Courier, monospace;
 }
