@@ -5,8 +5,11 @@
     
 */
 
-const textElement = $("text");
-const optionButtonsElement = $("#option-buttons");
+//const textElement = $("#text");
+//const optionButtonsElement = $("#option-buttons");
+
+const textElement = document.getElementById("text");
+const optionButtonsElement= document.getElementById("option-buttons");
 
 let state = {};
 
@@ -16,18 +19,20 @@ function startGame() {
 
 }
 
-function showTextNode() {
-    const textNode = textNodes.find(textNode => textNode.id == textNodeIndex);
+function showTextNode(textNodeIndex) {
+    const textNode = textNodes.find(textNode => textNode.id === textNodeIndex);
     textElement.innerText = textNode.text;
     while (optionButtonsElement.firstChild) {
         optionButtonsElement.removeChild(optionButtonsElement.firstChild);
     }
+
     textNodes.options.foreach(options => {
         if (showOption(option)) {
-            const button = $(".button").append("<button></button>");
-            $("button").click(function() {
-                selectOption(option);
-            })
+           const button = document.createElement("button");
+           button.innerText = options.text;
+           button.classList.add("button");
+           button.addEventListener('click', () => selectOption(option));
+           optionButtonsElement.appendChild(button);
         }
     })
 }
