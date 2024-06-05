@@ -40,13 +40,13 @@ button {
 }
 
 #myProgress {
-  width: 100%;
+  width: 1000px;
   background-color: grey;
   margin-bottom: 15px;
 }
 
 #myBar {
-  width: 10%;
+  width: 0;
   height: 30px;
   background-color: red;
 }
