@@ -1,8 +1,17 @@
 // Author: Vanessa Wang
 // Date: May 27, 2024
-
 //prototype for text
 
+function shuffleName (){
+    //retrieve user's name
+    let inputName = window.prompt("Who am I?");
+    console.log(inputName);
+    //convert name to array
+    let userName = inputName.split('').sort((a, b) => 0.5 - Math.random()).join('');
+    console.log(userName);
+    //return sorted name
+    return userName;
+  };
 
 function generateRandomText(){
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
