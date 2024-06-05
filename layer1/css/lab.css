@@ -1,29 +1,54 @@
+body,#content {
+  background-color: #9ea1a2;
+}
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #2a2a2a;
+    border: solid 2px #00a884;
+    background-color: #1d3944;
   }
 
-  .text p{
-    display: inline-block;
-    max-width: 50%;
-    margin: 4px;
-    padding: 7px 10px;
-    border-radius: 15px;
-    background-color: darkblue;
-    color: grey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-    }
+#output {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #0c1d19;
+  text-align: center;
+}
+
+p{
+  color:#b4c3ca
+}
+
+button {
+  margin-bottom: 5px;
+}
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 8px;
+  background-color: #2a3941;
+  color: #e9edef;
+  font-family: 'Segoe UI';
+  font-size: 14.2px;
+  line-height: 19px;
+}
 
 #myProgress {
   width: 100%;
   background-color: grey;
+  margin-bottom: 15px;
 }
 
 #myBar {
-  width: 1%;
+  width: 10%;
   height: 30px;
   background-color: red;
 }
+
+
