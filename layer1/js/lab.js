@@ -38,13 +38,21 @@ $("#layer1-button").click(function(){
 });
 
 //play audio when clicked
+
 $("#audio-button").click(function(){
-    let myAudio = $("audio")
-    // if (!myAudio.paused || !myAudio.currentTime) {
-    //     myAudio.pause();
-    // } else {
-        myAudio[0].play();
-    // }
+    let myAudio = $("audio")[0]
+
+    if (myAudio.paused) {
+        myAudio.play();
+        console.log("fofo")
+        
+
+    } else {
+        myAudio.pause();
+        console.log("fifi")
+    }
 });
+    // 
+// });
 
 //commented out is tryna figure out how to PAUSE it... lol
