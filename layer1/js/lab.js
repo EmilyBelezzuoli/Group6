@@ -36,3 +36,15 @@ $("#layer1-button").click(function(){
         // append a new div to our output div
         $("#output").append('<div class="text"><p>' + newText + '</p></div>');}
 });
+
+//play audio when clicked
+$("#audio-button").click(function(){
+    let myAudio = $("audio")
+    // if (!myAudio.paused || !myAudio.currentTime) {
+    //     myAudio.pause();
+    // } else {
+        myAudio[0].play();
+    // }
+});
+
+//commented out is tryna figure out how to PAUSE it... lol

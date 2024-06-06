@@ -51,4 +51,21 @@ button {
   background-color: red;
 }
 
+#audio-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: rgba(0, 0, 0, 0);
+}
+
+/* tryna figure out how to make it look more clicky? */
+#audio-button.active {
+  transform: translateY(4px);
+}
+
+#audio-img {
+  max-width: 30px
+}
 
