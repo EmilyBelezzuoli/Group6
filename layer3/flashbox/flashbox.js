@@ -1,32 +1,88 @@
 var colors = ["red", "white"];
 var currentColor = 0;
-var intervalId;
+var intervalId; // let's store our interval ID here so we can clear it later
 var flashCount = 0;
 
 function startFlashing() {
-    if (!intervalId) {
+    if (!intervalId) { 
         // reset the counter
         flashCount = 0;
 
         intervalId = setInterval(function () {
             // change the color of the border
-            document.getElementById("myDiv").style.borderColor = colors[currentColor];
-            currentColor = (currentColor + 1) % colors.length;
+            var elem = document.getElementById("myDiv");
+            elem.style.borderColor = colors[currentColor];
+            currentColor++;
+            
+            if (currentColor >= colors.length) {
+                currentColor = 0; // loop back around to the beginning if we've reached the end
+}
+        
 
-            flashCount++;
+    flashCount++;
 
-            if (flashCount >=12) { // stop after X flashes
-                stopFlashing();
-                document.getElementById("showAlertButton").style.display="block"; 
-                }
-        },500); // call the function every .5 seconds
+    if (flashCount >=12) { 
+// stop after X flashes - avoid infinite flashing that could cause a seizure.
+stopFlashing();
 
-    }
+      }
+     },500); // call the function every .5 seconds
+
+}
 }
 
 function stopFlashing() {
     if (intervalId) {
         clearInterval(intervalId);
-        intervalId = null; // clear the stored ID
+        intervalId = null;
+
+
+// Create a new button
+var newButton = document.createElement('button');
+newButton.textContent = "Show Alert";
+
+// Set up an onclick handler for showing the alert
+newButton.onclick = function() {
+    // When this button is clicked, show an alert after 3 seconds using setTimeout
+    setTimeout(function() {
+        // Show an alert message after 3 seconds have passed
+        alert('This is triggering another alert!');
+
+        // After showing the initial alert, create three new buttons using createElement and append them to the body of your HTML document        
+        for(let i=1;i<=3; i++){
+            var secondButton=document.createElement('button');
+            secondButton.textContent="New Button "+i;
+        
+                secondButton.onclick=function(){alert('You have clicked New Button '+i);};
+
+                document.body.appendChild(secondButton);
+            
+        }
+    },3000);
+}
+
+// Add your new button to the page 
+document.body.appendChild(newButton);
+
     }
-}  
+}
+
+// Create a reset button that appears after 30 seconds
+setTimeout(function(){
+var resetButton=document.createElement('button');
+resetButton.textContent ="Reset";
+
+resetButton.onclick=function(){
+let existingButtons=document.querySelectorAll('button');
+
+for(let i=0;i<existingButtons.length;i++){
+document.body.removeChild(existingButtons[i]);
+}
+
+startFlashing();
+
+};
+
+ document.body.appendChild(resetButton);
+
+},30000);
