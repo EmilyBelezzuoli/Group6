@@ -44,7 +44,7 @@ function generateRandomText() {
                 setTimeout(function() {
 
                     // Create 4 buttons and append them to the body
-                    for (var i = 0; i < 14; i++) {
+                    for (var i = 0; i < 21; i++) {
                         const newText = generateRandomText();
                         if (i == 10) {
                             let button = $('<button class="buttonClick2">').text("I need to wake up");
