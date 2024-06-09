@@ -89,9 +89,13 @@ const textNodes = [
         text: "2. The ruins don't interest you. Make haste for the northern horizon in search of anything evidently lucrative",
         nextText: 4,
       },
-      
+
     ]
-  }
+  },
+{
+  id: 3,
+  text:
+}
 ]
 
   /*
