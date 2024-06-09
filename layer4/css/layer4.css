@@ -1,10 +1,9 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
-}
-
-body {
+  }
+  
+  body {
     padding: 0;
     margin: 0;
     display: flex;
@@ -12,11 +11,11 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    border-color: red;
+    background-color: #000;
     color: red;
-}
-
-.containter {
+  }
+  
+  .container {
     width: 800px;
     max-width: 80%;
     background-color: black;
@@ -24,18 +23,27 @@ body {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
-}
-
-.button-rows {
+  }
+  
+  .btn-grid {
     display: grid;
-    grid-template-rows: repeat(1, auto);
+    grid-row: repeat(1, auto);
     gap: 10px;
     margin-top: 20px;
-}
-
-.button {
+  }
+  
+  .btn {
     background-color: black;
-    border-color: red;
+    border: 1px solid red;;
+    border-radius: 5px;
+    padding: 5px 10px;
     color: red;
-    font-family: 'Courier New', Courier, monospace;
-}
+    outline: none;
+    max-width: 200 px;
+  }
+  
+  .btn:hover {
+    border-color: black;
+    background-color: red;
+    color: black;
+  }
