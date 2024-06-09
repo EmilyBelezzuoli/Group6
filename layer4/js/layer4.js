@@ -94,7 +94,7 @@ const textNodes = [
   },
 {
   id: 3,
-  text:
+  text ,
 }
 ]
 
