@@ -1,21 +1,70 @@
-<hmtl>
-    <head>
-        <title>Escape the Dream-Verse</title>
-        <link rel="stylesheet" type="text/css" href="./css/site.css">
-        <link rel="stylesheet" type="text/css" href="../lab10/css/site.css">
-    	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	    <script type="text/javascript" src="js/lab10.js" DEFER></script>
-    </head>
-    <body>
-        <main>
-            <section>
-                <h1>Escape the Dream-Verse</h1>
+<!DOCTYPE html>
+<hmtl lang = "en">
+<head>
+    <title>Escape the Dream-Verse</title>
 
-    temporary links: 
-    <li><a href="../layer1/layer1.html"> Layer 1 </a></li>
-    <li><a href="../layer2/layer2.html"> Layer 2 </a></li>
-    <li><a href="../layer3/layer3.html"> Layer 3 </a></li>
-    </body>
+    <!-- Formatting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="../Group 6/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../layer1/css/lab.css">
+    <link rel="stylesheet" type="text/css" href="../layer2/css/layer2.css">
+    <link rel="stylesheet" type="text/css" href="../layer4/css/layer4.css">
+
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Javascript links -->
+	<script type="text/javascript" src="../layer1\js\lab.js" DEFER></script>
+    <script type="text/javascript" src="../layer2\js\layer2.js" DEFER></script>
+    <script type="text/javascript" src="../layer4\js\layer4.js" DEFER></script>
+</head>
+
+<body>
+     <main>
+        <h1>Escape the Dream-Verse</h1>
+
+         <!-- Layer 1-->
+        <section class = "layers" id = "layer1" onload = "shuffleName()">
+                <button id="audio-button"><img id="audio-img" src="../layer1/img/5225800.png"></button>
+                <audio src="../layer1/sound/medium_wind.mp3"></audio>
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                </div>   
+                <button id="layer1-button">Nightmare</button>
+                <p id="text"></p>
+                <div id="output"></div>
+        </section>
+
+         <!-- Layer 2 -->
+        <section class = "layers" id = "layer2">
+            <div class="centered">
+                <button class="spawn"> Lux et veritas. </button>
+            </div>
+        </section>
+
+         <!-- Layer 3-->
+        <section class = "layers" id = "layer3">
+        </section>
+
+         <!-- Layer 4 -->
+        <section class = "layers" id = "layer4">
+            <div class="container">
+                <div id="text-four">Text</div>
+                <div id="option-buttons" class="btn-grid">
+                  <button class="btn">Option 1</button>
+                  <button class="btn">Option 2</button>
+                  <button class="btn">Option 3</button>
+                  <button class="btn">Option 4</button>
+                </div>
+              </div>
+        </section>
+
+         <!-- Layer 5 -->
+        <section class = "layers" id = "layer5">
+        </section>
+</body>
 </hmtl>
-
-
