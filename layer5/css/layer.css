@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #370269;
     margin: 0;
 }
 
@@ -75,3 +75,7 @@ input#code {
 #enter:hover {
     background-color: #33ff33;
 }
+.flash {
+    background-color: white !important;
+}
+
