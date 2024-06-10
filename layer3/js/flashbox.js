@@ -1,4 +1,4 @@
-var colors = ["red", "black"];
+var colors = ["red", "black", "transparent"];
 var currentColor = 0;
 var intervalId; // let's store our interval ID here so we can clear it later
 var flashCount = 0;
@@ -38,6 +38,7 @@ stopFlashing();
 }
 
 function stopFlashing() {
+    $("#layer3").css({"animation-name": "cycleBackground", "animation-duration": "5s", "animation-iteration-count": "infinite"});
     if (intervalId) {
         clearInterval(intervalId);
         intervalId = null;

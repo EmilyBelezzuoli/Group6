@@ -298,7 +298,7 @@ const textNodes = [
   },
   {
     id: 20,
-    text: "The beast approaches, towering over you. Though its body is dripping in pustular ooze, you now get a closer look at the glint of metal hidden in its chest. With you bare hand, you dig into the heart of this thing that would kill you, shivering with the repulsive cold it sends up your arm. As you grip onto its metal phylactery, it screams and howls. A sudden, overwhelming bitter rage takes over you, as you tear metal from flesh. You watch as the beast falls apart before you, melting into the forest floor beneath you. Standing there, over the rotting thing that once hunted you, you hold the metal key in your palm. It's time to leave.",
+    text: "The beast approaches, towering over you. Though its body is dripping in pustular ooze, you now get a closer look at the glint of metal hidden in its chest. With you bare hand, you dig into the heart of this thing that would kill you, shivering with the repulsive cold it sends up your arm. As you grip onto its metal phylactery, it screams and howls. A sudden, overwhelming bitter rage takes over you, as you tear metal from flesh. You watch as the beast falls apart before you, melting into the forest floor beneath you. Standing there, over the rotting thing that once hunted you, you hold the metal key in your palm. Written on it is '4 3 2 1'...It's time to leave.",
     // put username in?
     options: [
       {
