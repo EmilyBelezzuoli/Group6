@@ -99,11 +99,11 @@ $("#showAlert").click(function(){
     },1000);
 
     setTimeout(function(){
-        $("#myDiv").append("<button id='theStupidResetButton'>Move forwards?</button>");
+        $("#myDiv").append("<button id='theStupidResetButton'>Try this dream?</button>");
         $("#theStupidResetButton").click(function(){
             console.log("bbay!");
         })
-    }, 10000);
+    }, 15000);
 })
 
 

@@ -18,3 +18,7 @@
 #layer3 {
     font-family: 'Gill Sans';
   }
+
+#factButton1,#factButton2,#factButton3,#factButton4{
+  display:block;
+}
