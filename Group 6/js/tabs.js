@@ -1,6 +1,6 @@
 function openLayer(evt, layerName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
+    // Declare all letiables
+    let i, tabcontent, tablinks;
   
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");

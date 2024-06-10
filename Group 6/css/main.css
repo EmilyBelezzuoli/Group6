@@ -1,5 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 h1 {
     text-align: center;
+    color: red;
+}
+
+body {
+    background-color: black;
 }
 
 .layers{
