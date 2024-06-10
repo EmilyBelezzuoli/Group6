@@ -1,9 +1,21 @@
 #myDiv {
-    width: 100px;
-    height: 100px;
+    width: 800px;
+    height: 80px;
     border: solid red;
     align-items: center;
     display: flex;
     justify-content: center;
 
 }
+@keyframes cycleBackground {
+    25% { background-image: url('../img/BrokenGlass.PNG'); }
+    50% { background-image: url('../img/JudgingEyes.png'); }
+    75% { background-image: url('../img/WOMPWOMP.png'); }
+    100% { background-image: url('../img/StaryDream.png'); }
+  }
+  
+  body {
+      animation-name: cycleBackground;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+  }
