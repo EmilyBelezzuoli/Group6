@@ -303,13 +303,14 @@ const textNodes = [
     options: [
       {
         text: "GAME COMPLETED",
+        setState: { complete: true },
         nextText: 21
       },
     ]
   },
 ]
-
   /*
+  $("#buttonLayer5").removeAttr("disabled").css("color","#912123");
   Leaving this here to use as a structural reference -- will delete when complete
   {
     id: 2,

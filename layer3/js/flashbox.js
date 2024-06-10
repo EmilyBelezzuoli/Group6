@@ -101,7 +101,8 @@ $("#showAlert").click(function(){
     setTimeout(function(){
         $("#myDiv").append("<button id='theStupidResetButton'>Try this dream?</button>");
         $("#theStupidResetButton").click(function(){
-            console.log("bbay!");
+            $("#buttonLayer4").removeAttr("disabled").css("color","#912123");
+            $("#buttonLayer5").removeAttr("disabled").css("color","#912123");
         })
     }, 15000);
 })

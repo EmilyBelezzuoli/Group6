@@ -19,7 +19,7 @@ function shuffleName (){
 const userName = shuffleName ()
 
 //text to cycle through
-let arr = ["Where am I","What's going on?","I don't remember...how I got here","Is there anyone here? I thought I heard..","I can't move","Who am I? I think... am I "+userName+"?","There's something I have to do. I can't rest.","I'm not supposed to be here. I'm supposed to...","What was that?","I HAVE TO GET OUT"];
+let arr = ["Where am I","What's going on?","I don't remember...how I got here","Is there anyone here? I thought I heard..","I can't move","Who am I? I think... am I "+userName+"?","There's something I have to do. I can't rest.","I'm not supposed to be here. I'm supposed to...","What was that?","I have to get out."];
 let index = 0;
 
 //when butotn clicks progress bar + text
@@ -28,7 +28,7 @@ $("#layer1-button").click(function(){
     // if bar full, clear screen
     if (barWidth==1000) { 
         console.log('Hi');
-        $("section").html('')
+        $("#buttonLayer2").removeAttr("disabled").css("color","#912123");
     //if bar not full...
     } else {
         //progress the bar

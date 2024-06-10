@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background-color: #531516;
     margin: 0;
 }
@@ -84,3 +84,6 @@ input#code {
     background-color: #c1c9e0 !important;
 }
 
+#hiddenForNow {
+    display:none;
+};

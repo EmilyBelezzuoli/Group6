@@ -35,19 +35,21 @@
 <body onload="document.getElementById('defaultOpen').click();">
      <main>
         <h1 id="gonnaAnimateThisBitch">    </h1>
+
+        <button id="audio-button"><img id="audio-img" src="../layer1/img/5225800.png"></button>
+                <audio src="../layer1/sound/homestuck_mediumshade_clarkpowell.mp3"></audio>
+        
             <!-- Tab links -->
             <div class="tab">
                 <button class="tablinks-active" id="defaultOpen" onclick="openLayer(event, 'layer1')">Layer I</button>
-                <button class="tablinks" onclick="openLayer(event, 'layer2')">Layer II</button>
-                <button class="tablinks" onclick="openLayer(event, 'layer3')">Layer III</button>
-                <button class="tablinks" onclick="openLayer(event, 'layer4')">Layer IV</button>
-                <button class="tablinks" onclick="openLayer(event, 'layer5')">Layer V</button>
+                <button id="buttonLayer2" class="tablinks" onclick="openLayer(event, 'layer2')" disabled>Layer II</button>
+                <button id="buttonLayer3" class="tablinks" onclick="openLayer(event, 'layer3')" disabled>Layer III</button>
+                <button id="buttonLayer4" class="tablinks" onclick="openLayer(event, 'layer4')" disabled>Layer IV</button>
+                <button id="buttonLayer5" class="tablinks" onclick="openLayer(event, 'layer5')" disabled>Layer V</button>
             </div>
             
              <!-- Layer 1 -->
             <div id="layer1" class="tabcontent">
-                <button id="audio-button"><img id="audio-img" src="../layer1/img/5225800.png"></button>
-                <audio src="../layer1/sound/medium_wind.mp3"></audio>
                 <div id="myProgress">
                     <div id="myBar"></div>
                 </div>   
@@ -106,6 +108,15 @@
                         <button class="key">0</button>
                         <button class="key" id="enter">Enter</button>  
                     </div>
+                </div>
+                <div id="hiddenForNow">
+                    <h2 id='animated1' style="color:#0a0b0e;size:40px;text-align:center;padding:30px 0"></h2>
+                    <p></p>
+                    <h2 id='animated2' style="color:#0a0b0e;size:40px;text-align:center;padding:30px 0""></h2>
+                    <p></p>
+                    <h2 id='animated3' style="color:#0a0b0e;size:40px;text-align:center;padding:30px 0""></h2>
+                    <p></p>
+                    <h2 id='animated4' style="color:#0a0b0e;size:40px;text-align:center;padding:30px 0""></h2>
                 </div>
             </div>
 </body>
