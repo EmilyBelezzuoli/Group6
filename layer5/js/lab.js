@@ -11,8 +11,8 @@ $(document).ready(function() {
         else if (this.id === 'enter') {
             var enteredCode = $('#code').val(); // Get the entered code from the input field
 
-            // Check if the entered code is '254'
-            if (enteredCode === '254') {
+            // Check if the entered code is '4321'
+            if (enteredCode === '4321') {
                 flashScreen(); // Flash the screen for 5 seconds if the code is '1234'
             }
             $('#code').val(''); // Clear the input field after checking the code
