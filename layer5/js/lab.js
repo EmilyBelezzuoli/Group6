@@ -31,7 +31,7 @@ $(document).ready(function() {
             $('body').toggleClass('flash'); // Toggle the 'flash' class to change background color
             if (count === 25) { // 25 iterations for 5 seconds (200 ms * 25 = 5000 ms)
                 clearInterval(interval); // Stop the flashing after 5 seconds
-                $('body').css('background-color', '#370269'); // Set background color back to default
+                $('body').css('background-color', 'black'); // Set background color back to default
             }
         }, 200);
     }

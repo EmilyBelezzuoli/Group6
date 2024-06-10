@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #370269;
+    background-color: red;
     margin: 0;
 }
 
@@ -11,7 +11,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #333;
+    background-color: black;
+    border: red;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -23,16 +24,18 @@ input#code {
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid red;
+    color: red;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: black;
 }
 
 .keypad {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    background-color: #444;
+    background-color: black;
+    border: solid red;
     padding: 20px;
     border-radius: 10px;
 }
@@ -41,9 +44,9 @@ input#code {
     width: 70px;
     height: 70px;
     font-size: 1.5em;
-    border: 2px solid #ccc;
+    border: 2px solid red;
     border-radius: 10px;
-    background-color: #c0c0c0;
+    background-color: black;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -52,28 +55,30 @@ input#code {
 }
 
 .key:hover {
-    background-color: #a9a9a9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: red;
+    box-shadow: 0 4px 8px white(0, 0, 0, 0.2);
 }
 
 #clear {
     grid-column: span 2;
-    background-color: #ff6666;
-    color: white;
+    background-color: red;
+    color: black;
 }
 
 #enter {
     grid-column: span 2;
-    background-color: #66ff66;
-    color: white;
+    background-color: red;
+    color: black;
 }
 
 #clear:hover {
-    background-color: #ff3333;
+    background-color: black;
+    color: red;
 }
 
 #enter:hover {
-    background-color: #33ff33;
+    background-color: black;
+    color: red;
 }
 .flash {
     background-color: white !important;
