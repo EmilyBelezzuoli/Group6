@@ -3,8 +3,14 @@ var currentColor = 0;
 var intervalId; // let's store our interval ID here so we can clear it later
 var flashCount = 0;
 
+$("#startFlashButton").click(startFlashing)
+$("#startFlashButton").click(function(){
+    $("#startFlashButton").remove();
+})
+
 function startFlashing() {
     if (!intervalId) { 
+
         // reset the counter
         flashCount = 0;
 
@@ -36,13 +42,21 @@ function stopFlashing() {
         clearInterval(intervalId);
         intervalId = null;
 
+        $(this).remove(); // Remove the clicked button
+
 
 // Create a new button
-var newButton = document.createElement('button');
-newButton.textContent = "Show Alert";
+$("#showAlertButton").html("<button id='showAlert'>Show Alert</button>");
+$("#showAlert").click(function(){
+        $("#showAlert").remove();
+    })
+
+// var newButton = document.createElement('button');
+// newButton.textContent = "Show Alert";
+// 
 
 // Set up an onclick handler for showing the alert
-newButton.onclick = function() {
+$("#showAlert").click(function(){
     // When this button is clicked, show an alert after 3 seconds using setTimeout
     setTimeout(function() {
         // Show an alert message after 3 seconds have passed
@@ -58,8 +72,9 @@ newButton.onclick = function() {
                 document.body.appendChild(secondButton);
             
         }
-    },3000);
-}
+    },1000);
+})
+
 
 // Add your new button to the page 
 document.body.appendChild(newButton);
@@ -79,7 +94,8 @@ for(let i=0;i<existingButtons.length;i++){
 document.body.removeChild(existingButtons[i]);
 }
 
-startFlashing();
+// startFlashing();
+
 
 };
 
