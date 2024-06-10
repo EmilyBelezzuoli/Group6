@@ -7,7 +7,7 @@
 */
 
 // Program Structure -- Don't change
-const textElement = document.getElementById("text")
+const textElement = document.getElementById("text-four")
 const optionButtonsElement = document.getElementById("option-buttons")
 
 let state = {}
@@ -88,14 +88,10 @@ const textNodes = [
       {
         text: "2. The ruins don't interest you. Make haste for the northern horizon in search of anything evidently lucrative",
         nextText: 4,
-      },
-
+      }
     ]
-  },
-{
-  id: 3,
-  text ,
-}
+  }
+
 ]
 
   /*

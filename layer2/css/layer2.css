@@ -1,4 +1,4 @@
-html {
+#layer2 section{
     background-color: black;
     border-color: red;
     color: red;
@@ -9,7 +9,7 @@ html {
     justify-content: center;
   }
   
-  button {
+  .spawn button{
     margin: 0px 10px;
     background-color: black;
     border-color: red;
