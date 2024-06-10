@@ -47,7 +47,7 @@ function stopFlashing() {
 
 
 // Create a new button
-$("#showAlertButton").html("<button id='showAlert'>Show Alert</button>");
+$("#showAlertButton").html("<button id='showAlert'>Trying to Wake Up?</button>");
 $("#showAlert").click(function(){
         $("#showAlert").remove();
     })
@@ -61,14 +61,14 @@ $("#showAlert").click(function(){
     // When this button is clicked, show an alert after 3 seconds using setTimeout
     setTimeout(function() {
         // Show an alert message after 3 seconds have passed
-        alert('This is triggering another alert!');
+        alert('Do not do that yet. You are just getting started.');
 
         // After showing the initial alert, create three new buttons using createElement and append them to the body of your HTML document        
         for(let i=1;i<=3; i++){
             var secondButton=document.createElement('button');
-            secondButton.textContent="New Button "+i;
+            secondButton.textContent="Dream Cycle"+i;
         
-                secondButton.onclick=function(){alert('You have clicked New Button '+i);};
+                secondButton.onclick=function(){alert('What if this is all made up?'+i);};
 
                 document.body.appendChild(secondButton);
             
