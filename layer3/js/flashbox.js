@@ -87,7 +87,7 @@ layer3.appendChild(newButton);
 // Create a reset button that appears after 30 seconds
 setTimeout(function(){
 var resetButton=document.createElement('button');
-resetButton.textContent ="Reset";
+resetButton.textContent ="Go forward";
 
 
 resetButton.onclick=function(){
