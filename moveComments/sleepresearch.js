@@ -12,8 +12,7 @@
 //Sleep deprivation can lead to poor short-term and long-term health outcomes as well as impair everyday functioning.
 
 
-// The recommended amount of sleep is 9-11 hours for school age children, 8-10 for teens, 
-// 7-9 for adults aged 18-64 and 7-8 for older adults (65 and over).
+// The recommended amount of sleep is 9-11 hours for school age children, 8-10 for teens, 7-9 for adults aged 18-64 and 7-8 for older adults (65 and over).
 
 // CAUSES
 //Lifestyle behavior  -  Voluntary choices that reduce time available for sleep and having inconsistent bed and wake times, use of electronic late nigt
@@ -37,9 +36,7 @@
 //sleep paralysis
 
 // IMPACT ON BRAIN
-//Insufficient sleep can impact your brain’s functioning including your ability to remember, 
-//regulate emotion and attention, the speed you process information and the ability to have insight.
-// Even short-term sleep deprivation can impair these functions.
+//Insufficient sleep can impact your brain’s functioning including your ability to remember, regulate emotion and attention, the speed you process information and the ability to have insight. Even short-term sleep deprivation can impair these functions.
 
 //SLEEP RECOMMENDATIONS
 // Prioritise your sleep:Due to lifestyle choices, leisure activities, and other obligations we sometimes do not prioritise our sleep.

@@ -28,6 +28,7 @@ function startFlashing() {
     flashCount++;
 
     if (flashCount >=12) { 
+
 // stop after X flashes - avoid infinite flashing that could cause a seizure.
 stopFlashing();
 
@@ -65,43 +66,72 @@ $("#showAlert").click(function(){
 
         // After showing the initial alert, create three new buttons using createElement and append them to the body of your HTML document        
         for(let i=1;i<=3; i++){
+        // var secondButton = $("#myDiv").html("<button></button>")
             var secondButton=document.createElement('button');
             secondButton.textContent="Dream Cycle"+i;
         
                 secondButton.onclick=function(){alert('What if this is all made up?'+i);};
 
-                document.body.appendChild(secondButton);
-            
+                $("#myDiv").append(secondButton)
+                // document.myDiv.appendChild(secondButton);
+
         }
+
+        $("#myDiv").append("<button id='factButton1'>Need</button>")
+            $("#factButton1").click(function(){
+                alert("Insufficient sleep can impact your brain’s functioning, including your ability to remember, regulate emotion and attention, the speed you process information and the ability to have insight. Even short-term sleep deprivation can impair these functions.");
+            })
+
+        $("#myDiv").append("<button id='factButton2'>To</button>")
+            $("#factButton2").click(function(){
+                alert("The recommended amount of sleep is 9-11 hours for school age children, 8-10 for teens, 7-9 for adults aged 18-64 and 7-8 for older adults (65 and over)");
+            })
+
+        $("#myDiv").append("<button id='factButton3'>Wake</button>")
+            $("#factButton3").click(function(){
+                alert("Shift work can alter our natural circadian rhythms (our biological clock that regulates alertness and sleepiness, hunger, temperature and hormone levels).");
+            }) 
+
+        $("#myDiv").append("<button id='factButton4'>Up</button>")
+            $("#factButton4").click(function(){
+                alert("Sleep is a vital physiological process that allows the body and brain to rest, recover and perform essential functions including memory consolidation, emotional regulation, immune function and general health maintenance.");
+            })
     },1000);
+
+    setTimeout(function(){
+        $("#myDiv").append("<button id='theStupidResetButton'>Move forwards?</button>");
+        $("#theStupidResetButton").click(function(){
+            console.log("bbay!");
+        })
+    }, 10000);
 })
 
 
 // Add your new button to the page 
-var layer3 = document.getElementById('layer3');
-layer3.appendChild(newButton);
+// var layer3 = document.getElementById('layer3');
+// layer3.appendChild(newButton);
 
     }
 }
 
-// Create a reset button that appears after 30 seconds
-setTimeout(function(){
-var resetButton=document.createElement('button');
-resetButton.textContent ="Reset";
+// // Create a reset button that appears after 30 seconds
+// setTimeout(function(){
+//     var resetButton=document.createElement('button');
+//     resetButton.textContent ="Reset";
 
 
-resetButton.onclick=function(){
-let existingButtons=document.querySelectorAll('button');
+//     resetButton.onclick=function(){
+//     let existingButtons=document.querySelectorAll('button');
 
-for(let i=0;i<existingButtons.length;i++){
-document.body.removeChild(existingButtons[i]);
-}
+//     for(let i=0;i<existingButtons.length;i++){
+//     document.body.removeChild(existingButtons[i]);
+// }
 
-// startFlashing();
+// // startFlashing();
 
 
-};
+// };
 
- document.body.appendChild(resetButton);
+//  document.body.appendChild(resetButton);
 
-},30000);
+// },30000);
