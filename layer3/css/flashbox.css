@@ -1,6 +1,7 @@
 #myDiv {
-    width: 800px;
-    height: 80px;
+    margin: auto;
+    width: 90%;
+    height: 80vh;
     border: solid red;
     align-items: center;
     display: flex;
@@ -14,7 +15,7 @@
     100% { background-image: url('../img/StaryDream.png'); }
   }
   
-  body {
+#layer3 {
       animation-name: cycleBackground;
       animation-duration: 5s;
       animation-iteration-count: infinite;
