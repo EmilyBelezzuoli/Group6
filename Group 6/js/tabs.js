@@ -18,3 +18,6 @@ function openLayer(evt, layerName) {
     document.getElementById(layerName).style.display = "block";
     evt.currentTarget.className += " active";
   } 
+
+  //animate h1
+  $("#gonnaAnimateThisBitch").typeTo("Escape the Dream-Verse");
