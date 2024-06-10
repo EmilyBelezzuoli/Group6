@@ -78,7 +78,8 @@ $("#showAlert").click(function(){
 
 
 // Add your new button to the page 
-document.body.appendChild(newButton);
+var layer3 = document.getElementById('layer3');
+layer3.appendChild(newButton);
 
     }
 }
@@ -86,7 +87,7 @@ document.body.appendChild(newButton);
 // Create a reset button that appears after 30 seconds
 setTimeout(function(){
 var resetButton=document.createElement('button');
-resetButton.textContent ="Go forward";
+resetButton.textContent ="Reset";
 
 
 resetButton.onclick=function(){
