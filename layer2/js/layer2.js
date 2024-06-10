@@ -22,15 +22,15 @@ function generateRandomText() {
              $('.spawn').click(function() {
                  // Set a timeout of 5 seconds (5000 milliseconds)
                 setTimeout(function() {
-                     // Create 4 buttons and append them to the body
+                     // Create 4 buttons and append them to the #layer2
                      for (var i = 0; i < 7; i++) {
                          const newText = generateRandomText();
                             if (i == 5) {
                                  let button = $('<button class="buttonClick1">').text("where am i");
-                                     $('body').append(button);
+                                     $('#layer2').append(button);
                                     } else{
                                       var button = $('<button>').text(newText);
-                                    $('body').append(button);  
+                                    $('#layer2').append(button);  
                                     }  
                                 }
                             }, 2000);
@@ -43,15 +43,15 @@ function generateRandomText() {
                 // Set a timeout of 5 seconds (5000 milliseconds)
                 setTimeout(function() {
 
-                    // Create 4 buttons and append them to the body
+                    // Create 4 buttons and append them to the #layer2
                     for (var i = 0; i < 21; i++) {
                         const newText = generateRandomText();
                         if (i == 10) {
                             let button = $('<button class="buttonClick2">').text("I need to wake up");
-                            $('body').append(button);
+                            $('#layer2').append(button);
                         } else {
                           var button = $('<button>').text(newText);
-                        $('body').append(button);  
+                        $('#layer2').append(button);  
                         }
                         
                     }
@@ -61,16 +61,16 @@ function generateRandomText() {
             $(document).on('click', '.buttonClick2', function() {
                 // Set a timeout of 2 seconds (2000 milliseconds)
                 setTimeout(function () {
-                    // Create 21 buttons and append them to the body
+                    // Create 21 buttons and append them to the #layer2
                     for (var i = 0; i < 21; i++) {
                         const newText = generateRandomText();
                         if (i === 2) { 
                             let button = $('<button class="buttonClick2">').text("I need to wake up");
-                            $('body').append(button);
+                            $('#layer2').append(button);
                         } else { 
                             (function(j){ 
                                 setTimeout(function(){ 
-                                    var button = $('<button>').text("wake up"); $('body').append(button); 
+                                    var button = $('<button>').text("wake up"); $('#layer2').append(button); 
                                 }, j * 200); 
                             })(i);
                         }

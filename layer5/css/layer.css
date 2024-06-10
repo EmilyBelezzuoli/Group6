@@ -1,0 +1,81 @@
+#layer5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #370269;
+    margin: 0;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input#code {
+    width: 240px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.key {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #c0c0c0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.key:hover {
+    background-color: #a9a9a9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#clear {
+    grid-column: span 2;
+    background-color: #ff6666;
+    color: white;
+}
+
+#enter {
+    grid-column: span 2;
+    background-color: #66ff66;
+    color: white;
+}
+
+#clear:hover {
+    background-color: #ff3333;
+}
+
+#enter:hover {
+    background-color: #33ff33;
+}
+.flash {
+    background-color: white !important;
+}
+
