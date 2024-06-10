@@ -4,11 +4,11 @@
 
 h1 {
     text-align: center;
-    color: red;
+    color: #912123;
 }
 
 body {
-    background-color: black;
+    background-color: #0a0b0e;
 }
 
 .layers{
@@ -19,16 +19,16 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
-  border: solid red;
-  color: red;
+  background-color:#0a0b0e;
+  border: solid #531516;
+  color: #531516;
   font-family: 'Courier New', Courier, monospace;
 }
 
 button {
     margin: 0px 10px;
-    background-color: black;
-    border-color: red;
-    color: red;
+    background-color: #0a0b0e;
+    border-color: #531516;
+    color: #912123;
     font-family: 'Courier New', Courier, monospace;
 }

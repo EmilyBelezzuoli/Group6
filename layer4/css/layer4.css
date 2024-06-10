@@ -3,7 +3,7 @@
 }
 
 #text-four{
-  color:aliceblue;
+  color:#c1c9e0;
 }
 
 #layer4 {
@@ -14,17 +14,17 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
-  border: solid red;
-  color: red;
+  background-color: #0a0b0e;
+  border: solid #531516;
+  color: #912123;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
   width: 800px;
   max-width: 80%;
-  background-color: black;
-  border-color: red;
+  background-color: #0a0b0e;
+  border-color: #531516;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
@@ -39,20 +39,20 @@
 }
 
 .btn {
-  background-color: black;
-  border: 1px solid red;;
+  background-color: #0a0b0e;
+  border: 1px solid #531516;;
   border-radius: 5px;
   padding: 5px 10px;
-  color: red;
+  color: #912123;
   outline: none;
   max-width: 200 px;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .btn:hover {
-  border-color: black;
-  background-color: red;
-  color: black;
+  border-color: #0a0b0e;
+  background-color: #912123;
+  color: #0a0b0e;
 }
 
 .centered4 {
