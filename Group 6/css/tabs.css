@@ -1,5 +1,7 @@
 .tab {
     overflow: hidden;
+    display: block;
+    margin: 0 auto;
     border: 1px solid red;
     background-color: black;
   }
@@ -33,10 +35,10 @@
     padding: 6px 12px;
     /*border: 1px solid red;*/
     border-top: none;
-    animation: fadeEffect 1s;
+    animation: fadeEffect 2s;
   }
 
   @keyframes fadeEffect {
-    from {opacity: 0.5;}
+    from {opacity: 0;}
     to {opacity: 1;}
   }
