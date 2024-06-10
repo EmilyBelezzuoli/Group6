@@ -77,7 +77,8 @@ $("#showAlert").click(function(){
 
 
 // Add your new button to the page 
-document.body.appendChild(newButton);
+var layer3 = document.getElementById('layer3');
+layer3.appendChild(newButton);
 
     }
 }
@@ -86,6 +87,7 @@ document.body.appendChild(newButton);
 setTimeout(function(){
 var resetButton=document.createElement('button');
 resetButton.textContent ="Reset";
+
 
 resetButton.onclick=function(){
 let existingButtons=document.querySelectorAll('button');
