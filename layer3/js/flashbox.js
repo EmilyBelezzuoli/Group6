@@ -1,4 +1,4 @@
-var colors = ["red", "black", "white", "transparent"];
+var colors = ["red", "black", "transparent"];
 var currentColor = 0;
 var intervalId; // let's store our interval ID here so we can clear it later
 var flashCount = 0;
