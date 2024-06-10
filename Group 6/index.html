@@ -10,25 +10,38 @@
 
     <!-- CSS links -->
     <link rel="stylesheet" type="text/css" href="../Group 6/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../Group 6\css\tabs.css">
     <link rel="stylesheet" type="text/css" href="../layer1/css/lab.css">
     <link rel="stylesheet" type="text/css" href="../layer2/css/layer2.css">
     <link rel="stylesheet" type="text/css" href="../layer4/css/layer4.css">
+    <link rel="stylesheet" type="text/css" href="../layer5\css\layer.css">
 
     <!-- Libraries -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <!-- Javascript links -->
+    <script type="text/javascript" src="../Group 6/js/tabs.js" DEFER></script>
 	<script type="text/javascript" src="../layer1\js\lab.js" DEFER></script>
     <script type="text/javascript" src="../layer2\js\layer2.js" DEFER></script>
+    <script type="text/javascript" src=" " DEFER></script>
     <script type="text/javascript" src="../layer4\js\layer4.js" DEFER></script>
+    <script type="text/javascript" src="../layer5\js\lab.js" DEFER></script>
 </head>
 
 <body>
      <main>
         <h1>Escape the Dream-Verse</h1>
-
-         <!-- Layer 1-->
-        <section class = "layers" id = "layer1" onload = "shuffleName()">
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openLayer(event, 'layer1')">Layer I</button>
+                <button class="tablinks" onclick="openLayer(event, 'layer2')">Layer II</button>
+                <button class="tablinks" onclick="openLayer(event, 'layer3')">Layer III</button>
+                <button class="tablinks" onclick="openLayer(event, 'layer4')">Layer IV</button>
+                <button class="tablinks" onclick="openLayer(event, 'layer5')">Layer V</button>
+            </div>
+            
+             <!-- Layer 1 -->
+            <div id="layer1" class="tabcontent">
                 <button id="audio-button"><img id="audio-img" src="../layer1/img/5225800.png"></button>
                 <audio src="../layer1/sound/medium_wind.mp3"></audio>
                 <div id="myProgress">
@@ -37,34 +50,52 @@
                 <button id="layer1-button">Nightmare</button>
                 <p id="text"></p>
                 <div id="output"></div>
-        </section>
-
-         <!-- Layer 2 -->
-        <section class = "layers" id = "layer2">
-            <div class="centered">
-                <button class="spawn"> Lux et veritas. </button>
             </div>
-        </section>
-
-         <!-- Layer 3-->
-        <section class = "layers" id = "layer3">
-        </section>
-
-         <!-- Layer 4 -->
-        <section class = "layers" id = "layer4">
-            <div class="container">
-                <div id="text-four">Text</div>
-                <div id="option-buttons" class="btn-grid">
-                  <button class="btn">Option 1</button>
-                  <button class="btn">Option 2</button>
-                  <button class="btn">Option 3</button>
-                  <button class="btn">Option 4</button>
+            
+            <!-- Layer 2 -->
+            <div id="layer2" class="tabcontent">
+                <div class="centered">
+                    <button class="spawn"> Lux et veritas. </button>
                 </div>
-              </div>
-        </section>
+            </div>
+            
+            <!-- Layer 3 -->
+            <div id="layer3" class="tabcontent">
+               
+            </div> 
 
-         <!-- Layer 5 -->
-        <section class = "layers" id = "layer5">
-        </section>
+            <!-- Layer 4 -->
+            <div id="layer4" class="tabcontent">
+                <div class="container">
+                    <div id="text-four">Text</div>
+                    <div id="option-buttons" class="btn-grid">
+                      <button class="btn">Option 1</button>
+                      <button class="btn">Option 2</button>
+                      <button class="btn">Option 3</button>
+                      <button class="btn">Option 4</button>
+                    </div>
+                  </div>
+            </div>
+            
+            <!-- Layer 5 -->
+            <div id="layer5" class="tabcontent">
+                <div class="container5">
+                    <input type="password" id="code" placeholder="Enter Code" disabled>
+                    <div class="keypad">
+                        <button class="key">1</button>
+                        <button class="key">2</button>
+                        <button class="key">3</button>
+                        <button class="key">4</button>
+                        <button class="key">5</button>
+                        <button class="key">6</button>
+                        <button class="key">7</button>
+                        <button class="key">8</button>
+                        <button class="key">9</button>
+                        <button class="key" id="clear">Clear</button>
+                        <button class="key">0</button>
+                        <button class="key" id="enter">Enter</button>  
+                    </div>
+                </div>
+            </div> 
 </body>
 </hmtl>

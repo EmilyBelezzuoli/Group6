@@ -1,4 +1,4 @@
-#layer2 section{
+#layer2{
     background-color: black;
     border-color: red;
     color: red;
@@ -9,11 +9,3 @@
     justify-content: center;
   }
   
-  .spawn button{
-    margin: 0px 10px;
-    background-color: black;
-    border-color: red;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
