@@ -29,12 +29,12 @@
     <script type="text/javascript" src="../Group 6/js/tabs.js" DEFER></script>
 </head>
 
-<body>
+<body onload="document.getElementById('defaultOpen').click();">
      <main>
         <h1>Escape the Dream-Verse</h1>
             <!-- Tab links -->
             <div class="tab">
-                <button class="tablinks" onclick="openLayer(event, 'layer1')">Layer I</button>
+                <button class="tablinks-active" id="defaultOpen" onclick="openLayer(event, 'layer1')">Layer I</button>
                 <button class="tablinks" onclick="openLayer(event, 'layer2')">Layer II</button>
                 <button class="tablinks" onclick="openLayer(event, 'layer3')">Layer III</button>
                 <button class="tablinks" onclick="openLayer(event, 'layer4')">Layer IV</button>
