@@ -1,12 +1,12 @@
 body,#content {
-  background-color: #9ea1a2;
+  background-color: black;
 }
 
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 2px #00a884;
-    background-color: #1d3944;
+    border: solid 2px red;
+    background-color: black;
   }
 
 #output {
@@ -14,13 +14,8 @@ body,#content {
   margin-bottom: 10px;
 }
 
-h1 {
-  color: #0c1d19;
-  text-align: center;
-}
-
 p{
-  color:#b4c3ca
+  color:red
 }
 
 button {
@@ -32,8 +27,8 @@ button {
   max-width: 60%;
   margin: 3px;
   padding: 8px;
-  background-color: #2a3941;
-  color: #e9edef;
+  background-color: black;
+  color: red;
   font-family: 'Segoe UI';
   font-size: 14.2px;
   line-height: 19px;

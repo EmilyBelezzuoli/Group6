@@ -24,6 +24,7 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
+  align-items: center;
 }
 
 .btn-grid {
@@ -48,4 +49,10 @@
   border-color: black;
   background-color: red;
   color: black;
+}
+
+.centered4 {
+  display: flex;
+  justify-content: center;
+  margin: 150px;
 }
