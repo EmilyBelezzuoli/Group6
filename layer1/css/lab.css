@@ -25,13 +25,14 @@ button {
 .text p {
   display: inline-block;
   max-width: 60%;
-  margin: 3px;
+  border-radius: 15px;
   padding: 8px;
   background-color: black;
   color: red;
-  font-family: 'Segoe UI';
+  font-family: 'Courier New', Courier, monospace;
   font-size: 14.2px;
   line-height: 19px;
+  text-shadow: 0 0 10px 2px;
 }
 
 #myProgress {
@@ -43,6 +44,7 @@ button {
 #myBar {
   width: 0;
   height: 30px;
+  border: red;
   background-color: red;
 }
 
