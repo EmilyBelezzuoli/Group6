@@ -4,7 +4,7 @@
 
 h1 {
     text-align: center;
-    color: #912123;
+    color: #ffffff;
 }
 
 body {
@@ -20,15 +20,16 @@ body {
   width: 100vw;
   height: 100vh;
   background-color:#0a0b0e;
-  border: solid #531516;
-  color: #531516;
+  border: solid #ff0000;
+  color: #ff0000;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 button {
     margin: 0px 10px;
     background-color: #0a0b0e;
     border-color: #531516;
-    color: #912123;
+    color: #ff0000;
     font-family: 'Courier New', Courier, monospace;
 }

@@ -2,8 +2,9 @@
     overflow: hidden;
     display: block;
     margin: 0 auto;
-    border: 1px solid #531516;
+    border: 1px solid #ffffff;
     background-color: #0a0b0e;
+    font-weight: bold;
   }
   
   /* Style the buttons that are used to open the tab content */
