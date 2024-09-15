@@ -46,12 +46,14 @@
   outline: none;
   max-width: 200 px;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
 
 .btn:hover {
   border-color: #0a0b0e;
   background-color: #912123;
   color: #0a0b0e;
+  font-weight: bolder;
 }
 
 .centered4 {
