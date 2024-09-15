@@ -24,8 +24,8 @@
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: #912123;
-    border-color: solid  #531516;
+    background-color: #ff0000;
+    border-color: solid  #ff0000;
     color: #12151c;
   }
   
