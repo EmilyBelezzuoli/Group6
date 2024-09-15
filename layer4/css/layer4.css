@@ -17,7 +17,6 @@
   background-color: #0a0b0e;
   color: #912123;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
 }
 
 .container {
@@ -53,7 +52,7 @@
   border-color: #0a0b0e;
   background-color: #912123;
   color: #0a0b0e;
-
+  font-weight: bolder;
 }
 
 .centered4 {
