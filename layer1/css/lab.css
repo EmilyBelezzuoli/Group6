@@ -5,7 +5,7 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 2px #531516;
+    border: solid 2px #ff0000;
     background-color: #0a0b0e;
   }
 
@@ -15,7 +15,7 @@
 }
 
 p{
-  color:#912123;
+  color:#ff0000;
 }
 
 button {
@@ -28,7 +28,7 @@ p.text {
   border-radius: 15px;
   padding: 8px;
   background-color: #0a0b0e;
-  color: #912123;
+  color: #ff0000;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14.2px;
   line-height: 19px;
@@ -44,8 +44,8 @@ p.text {
 #myBar {
   width: 0;
   height: 30px;
-  border: #912123;
-  background-color: #912123;
+  border: #ff0000;
+  background-color: #ff0000;
 }
 
 #audio-button {

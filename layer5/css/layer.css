@@ -24,8 +24,8 @@ input#code {
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 20px;
-    border: 2px solid #531516;
-    color: #912123;
+    border: 2px solid #ff0000;
+    color: #ffffff;
     border-radius: 5px;
     background-color: #0a0b0e;
 }
@@ -35,7 +35,7 @@ input#code {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     background-color: #0a0b0e;
-    border: solid #912123;
+    border: solid #ff0000;
     padding: 20px;
     border-radius: 10px;
 }
@@ -44,7 +44,7 @@ input#code {
     width: 70px;
     height: 70px;
     font-size: 1.5em;
-    border: 2px solid #912123;
+    border: 2px solid #ff0000;
     border-radius: 10px;
     background-color: #0a0b0e;
     cursor: pointer;
@@ -55,30 +55,30 @@ input#code {
 }
 
 .key:hover {
-    background-color: #912123;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px white(0, 0, 0, 0.2);
 }
 
 #clear {
     grid-column: span 2;
-    background-color: #912123;
+    background-color: #ff0000;
     color: #0a0b0e;
 }
 
 #enter {
     grid-column: span 2;
-    background-color: #912123;
+    background-color: #ff0000;
     color: #0a0b0e;
 }
 
 #clear:hover {
     background-color: #0a0b0e;
-    color: #912123;
+    color: hsl(0, 0%, 100%);
 }
 
 #enter:hover {
     background-color: #0a0b0e;
-    color: #912123;
+    color: #ffffff;
 }
 .flash {
     background-color: #c1c9e0 !important;

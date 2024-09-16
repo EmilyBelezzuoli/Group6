@@ -15,7 +15,7 @@
   width: 100vw;
   height: 80vh;
   background-color: #0a0b0e;
-  color: #912123;
+  color: #ff0000;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -23,7 +23,7 @@
   width: 800px;
   max-width: 80%;
   background-color: #0a0b0e;
-  border-color: #531516;
+  border-color: #ff0000;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
@@ -42,7 +42,7 @@
   border: 1px solid #531516;;
   border-radius: 5px;
   padding: 5px 10px;
-  color: #912123;
+  color: #ff0000;
   outline: none;
   max-width: 200 px;
   font-family: 'Courier New', Courier, monospace;
