@@ -28,7 +28,7 @@ $("#layer1-button").click(function(){
     // if bar full, clear screen
     if (barWidth==1000) { 
         console.log('Hi');
-        $("#buttonLayer2").removeAttr("disabled").css("color","#912123");
+        $("#buttonLayer2").removeAttr("disabled").css("color","#FF0000");
     //if bar not full...
     } else {
         //progress the bar

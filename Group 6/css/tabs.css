@@ -32,6 +32,7 @@
   /* Create an active/current tablink class */
   .tab button.active {
     background-color: #0a0b0e;
+    /* color: PURPLE; */
   }
   
   /* Style the tab content */
