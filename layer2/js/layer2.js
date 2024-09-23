@@ -75,6 +75,6 @@ function generateRandomText() {
                             })(i);
                         }
                     }
-                    $("#buttonLayer3").removeAttr("disabled").css("color","#912123");
+                    $("#buttonLayer3").removeAttr("disabled").css("color","#FF0000");
                 },2000);
             });
