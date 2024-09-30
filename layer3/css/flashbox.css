@@ -9,10 +9,10 @@
 
 }
 @keyframes cycleBackground {
-    50% { background-image: url(../img/SpookyEyes.jpeg); }
-    75% { background-image: url(../img/crazy.jpeg); }
-    100% { background-image: url('../img/StaryDream.png'); }
-    /* 125% { background-image: url('../img/IMG_5458.jpg'); } */
+    0% { background-image: url('../img/SpookyEyes.jpeg'); }
+    50% { background-image: url('../img/crazy.jpeg'); }
+    75% { background-image: url('../img/StaryDream.png') }
+    100% { background-image: url('../img/IMG_5458.jpeg'); }
   }
   
 #layer3 {
