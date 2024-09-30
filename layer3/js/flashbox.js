@@ -39,7 +39,7 @@ stopFlashing();
 }
 
 function stopFlashing() {
-    $("#layer3").css({"animation-name": "cycleBackground", "animation-duration": "7s", "animation-iteration-count": "infinite"});
+    $("#layer3").css({"animation-name": "cycleBackground", "animation-duration": "8s", "animation-iteration-count": "infinite"});
     if (intervalId) {
         clearInterval(intervalId);
         intervalId = null;
